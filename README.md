@@ -4,7 +4,7 @@ This is my project for the WGU/Udacity MLOps course. The goal was to build a mac
 
 ## Links
 
-- **GitHub Repo:** https://github.com/soniaccodes/Project-Build-an-ML-Pipeline-Starter
+- **GitHub Repo:** https://github.com/Sonmcc/Project-Build-an-ML-Pipeline-Starter
 - **Weights & Biases Project:** https://wandb.ai/soniaccodes-western-governors-university/nyc_airbnb
 
 ## What This Project Does
@@ -45,7 +45,7 @@ mlflow run . -P steps=train_random_forest -P hydra_options="modeling.random_fore
 
 Run a specific version straight from GitHub:
 ```bash
-mlflow run https://github.com/soniaccodes/Project-Build-an-ML-Pipeline-Starter.git \
+mlflow run https://github.com/Sonmcc/Project-Build-an-ML-Pipeline-Starter.git \
   -v 1.0.1 \
   -P hydra_options="etl.sample='sample2.csv'"
 ```
